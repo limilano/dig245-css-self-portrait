@@ -1,2 +1,56 @@
 
 /* css */
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+:root {
+  /* hair colors */
+  --h1: #F1D8C9;
+  --h2: #E3CBBD;
+  --h3: #DEC5B7;
+  /* skin colors */
+  --s1: #F6ECE4;
+  --s2: #F1DCD0;
+  /* lips */
+  --l1: #F0D0C5;
+  --l2: #E5BCB7;
+  /* eye colors */
+  --e1: #FFFFFF;
+  --e2: #96A08D;
+  --e3: #000000;
+  /* shirt */
+  --sh: #E83F3F;
+}
+
+.c1 {
+  background-color: var(--h1);
+}
+
+.c2 {
+  background-color: var(--h2);
+}
+
+.c3 {
+  background-color: var(--h3);
+}
+
+.c4 {
+  background-color: var(--s1);
+}
+
+.c5 {
+  background-color: var(--s2);
+}
+
+.leftHair {
+  border-radius: 90px 75px 0px 75px;
+}
+
+.rightHair {
+  border-radius: 75px 90px 75px 0px;
+}
