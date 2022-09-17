@@ -47,10 +47,34 @@
   background-color: var(--s2);
 }
 
+.c6 {
+  background-color: var(--l1);
+}
+
+.c7 {
+  background-color: var(--l2);
+}
+
+.c8 {
+  background-color: var(--e1);
+}
+
+.c9 {
+  background-color: var(--e2);
+}
+
+.c10 {
+  background-color: var(--e3);
+}
+
 .leftHair {
   border-radius: 90px 75px 0px 75px;
 }
 
 .rightHair {
   border-radius: 75px 90px 75px 0px;
+}
+
+.rounded {
+  border-radius: 100px;
 }
