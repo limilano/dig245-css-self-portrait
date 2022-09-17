@@ -86,3 +86,8 @@
 .eyes {
   border-radius: 300px;
 }
+
+p {
+  text-align: right;
+  margin-right: 100px;
+}
