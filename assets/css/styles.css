@@ -67,6 +67,10 @@
   background-color: var(--e3);
 }
 
+.c11 {
+  background-color: var(--sh);
+}
+
 .leftHair {
   border-radius: 90px 75px 0px 75px;
 }
@@ -77,4 +81,8 @@
 
 .rounded {
   border-radius: 100px;
+}
+
+.eyes {
+  border-radius: 300px;
 }
