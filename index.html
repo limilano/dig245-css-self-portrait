@@ -5,12 +5,28 @@
 <!-- meta tags, links to css, etc. -->
 <title>DIG 245 CSS Self-Portrait</title>
 <link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/main.js"></script>
 
 </head>
-<body>
 
-<!-- visible content goes here -->
+<body>
+  <div style="position:absolute;right:0;bottom:0;">
+    <p>x: <span id="x-value"></span>
+      <br>
+       y: <span id="y-value"></span>
+    </p>
+  </div>
+
+  <script type = "text/javascript">
+    window.addEventListener("mousemove", function(event) {
+      document.getElementById("x-value").textContent = event.x;
+      document.getElementById("y-value").textContent = event.y;
+    });
+
+  </script>
+
 <h1>DIG 245 CSS Self-Portrait</h1>
+
 
 <!-- back of hair -->
 <div class = "abs c3 leftHair" style = "width:250px; height:200px; left: 400px;">
@@ -85,6 +101,7 @@
   </div>
 </div>
 
+
 <div>
   <p> Here is a link to the original portrait
       done in <a href="https://www.figma.com/file/6raGfpHK4ZR7zoTQSXkGcg/portrait?node-id=0%3A1">Figma</a>!
@@ -92,7 +109,5 @@
 </div>
 
 
-
-<script src="assets/js/main.js"></script>
 </body>
 </html>
